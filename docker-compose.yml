@@ -1,0 +1,7 @@
+jekyll:
+  build: .
+  ports:
+   - "80:80"
+   - "4000:4000"
+  volumes:
+   -  .:/srv/jekyll
